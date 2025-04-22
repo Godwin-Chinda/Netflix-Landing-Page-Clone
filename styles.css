@@ -23,9 +23,24 @@ body {
   object-fit: contain;
 }
 
+.sign-in-btn {
+  background-color: white;
+  color: black;
+  padding: 0.6rem 1.4rem;
+  border: none;
+  border-radius: 999px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.sign-in-btn:hover {
+  background-color: #f1f1f1;
+}
+
 .nav-menu {
   display: flex;
-  margin: auto;
+  margin: -30px auto;
   gap: 2rem;
   background-color: rgba(0, 0, 0, 0.6);
   width: 470px;
@@ -43,19 +58,4 @@ body {
 
 .nav-menu a:hover {
   color: #ffffff;
-}
-
-.sign-in-btn {
-  background-color: white;
-  color: black;
-  padding: 0.6rem 1.4rem;
-  border: none;
-  border-radius: 999px;
-  font-weight: bold;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.sign-in-btn:hover {
-  background-color: #f1f1f1;
 }
