@@ -6,7 +6,7 @@
 
 body {
   background: linear-gradient(to top, #3d1f23, #0b0606);
-  font-family: Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   height: 100vh;
   padding: 0 20px;
 }
@@ -40,7 +40,7 @@ body {
 
 .nav-menu {
   display: flex;
-  margin: -30px auto 40px auto;
+  margin: -20px auto 40px auto;
   gap: 2rem;
   background-color: rgba(0, 0, 0, 0.6);
   width: 470px;
@@ -72,7 +72,7 @@ body {
 
 .hero-content h1 {
   font-size: 3.5rem;
-  font-weight: 900;
+  font-weight: bolder;
   line-height: 1.2;
   margin: 30px;
 }
