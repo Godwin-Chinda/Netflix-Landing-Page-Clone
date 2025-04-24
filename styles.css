@@ -12,9 +12,15 @@ body {
 }
 
 .header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 1rem 2rem;
 }
 
 .logo {
@@ -39,6 +45,11 @@ body {
 }
 
 .nav-menu {
+  position: fixed;
+  top: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 9;
   display: flex;
   margin: -20px auto 40px auto;
   gap: 2rem;
@@ -68,11 +79,12 @@ body {
   margin: auto;
   padding-bottom: 80px;
   color: white;
+  padding-top: 180px;
 }
 
 .hero-content h1 {
   font-size: 3.5rem;
-  font-weight: bolder;
+  font-weight: 700;
   line-height: 1.2;
   margin: 30px;
 }
