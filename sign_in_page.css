@@ -32,7 +32,6 @@
 
 .sign-in-container {
   position: relative;
-  z-index: 2;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -57,7 +56,7 @@
   padding: 16px;
   margin-bottom: 20px;
   background: black;
-  border: none;
+  border: 1px solid #ffffff;
   border-radius: 4px;
   color: white;
   font-size: 1rem;
@@ -145,4 +144,30 @@
 
 .learn a {
   color: #0071eb;
+}
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px 70px;
+  margin: 0 auto;
+  color: #ccc;
+  background-color: rgb(29, 29, 29);
+}
+
+.footer-column {
+  flex: 1 1 200px;
+  margin-bottom: 20px;
+}
+
+.footer a {
+  display: block;
+  color: #ccc;
+  text-decoration: underline;
+  margin: 20px auto;
+}
+
+.footer .contact {
+  font-size: 18px;
+  margin-bottom: 20px;
 }
