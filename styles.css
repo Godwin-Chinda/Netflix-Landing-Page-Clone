@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  overflow: hidden;
 }
 
 body {
@@ -153,4 +152,71 @@ body {
 
 .email-form button:hover {
   background: #f6121d;
+}
+
+.slider-container {
+  padding: 30px;
+  position: relative;
+}
+.slider-title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+.slider-wrapper {
+  overflow: hidden;
+}
+.slider {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+.slider::-webkit-scrollbar {
+  display: none;
+}
+.movie-card {
+  flex: 0 0 auto;
+  width: 160px;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+}
+.movie-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+.movie-number {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+  text-shadow: 2px 2px 5px black;
+}
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 50%;
+  z-index: 10;
+}
+.arrow-left {
+  left: 10px;
+}
+.arrow-right {
+  right: 10px;
+}
+
+@media (max-width: 500px) {
+  .movie-card {
+    width: 120px;
+  }
 }
