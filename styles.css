@@ -157,12 +157,16 @@ body {
 .slider-container {
   padding: 30px;
   position: relative;
+  width: 85%;
+  margin: 50px auto;
 }
 
 .slider-title {
   font-size: 2rem;
   margin-bottom: 20px;
-} 
+  color: white;
+  font-weight: bolder;
+}
 
 .slider-wrapper {
   overflow: hidden;
@@ -231,6 +235,114 @@ body {
 
 .arrow-right {
   right: 10px;
+}
+
+.plan-section {
+  padding: 40px 20px;
+  color: white;
+  margin: -100px auto;
+}
+
+.plan-heading {
+  font-size: 2.2rem;
+  margin: 0 0 30px 100px;
+}
+
+.plan-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.plan-card {
+  border-radius: 15px;
+  padding: 25px;
+  width: 230px;
+  position: relative;
+  transition: transform 0.3s ease;
+}
+
+.plan-card:hover {
+  transform: scale(1.05);
+}
+
+.plan-title {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.plan-quality {
+  font-size: 1rem;
+  margin: 10px 0;
+  color: #ccc;
+}
+
+.plan-features {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+  margin: 15px 0;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.plan-price {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.plan-price span {
+  font-weight: normal;
+  font-size: 0.9rem;
+  color: #ccc;
+}
+
+.premium-card {
+  background: linear-gradient(to bottom right, #142155, #000428);
+  border: 2px solid #3776db;
+}
+
+.premium-card:hover {
+  background: linear-gradient(to bottom right, #192969, #000428);
+  border: 2px solid #3b82f6;
+}
+
+.card-1 {
+  background: linear-gradient(to bottom right, #1c2e5c, #0f0c29);
+}
+
+.card-1:hover {
+  background: linear-gradient(to bottom right, #1e3264, #0f0c29);
+}
+
+.card-2 {
+  background: linear-gradient(to bottom right, #6e00db, #0f0c29);
+}
+
+.card-2:hover {
+  background: linear-gradient(to bottom right, #7f00ff, #0f0c29);
+}
+
+.card-3 {
+  background: linear-gradient(to bottom right, #8f065b, #0f0c29);
+}
+
+.card-3:hover {
+  background: linear-gradient(to bottom right, #aa076b, #0f0c29);
+}
+
+.badge {
+  position: absolute;
+  top: -12px;
+  left: 15px;
+  background-color: #3b82f6;
+  color: white;
+  padding: 3px 10px;
+  border-radius: 10px;
+  font-size: 0.75rem;
+  font-weight: bold;
 }
 
 @media (max-width: 500px) {
