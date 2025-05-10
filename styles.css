@@ -353,6 +353,7 @@ body {
 .reasons-section {
   color: #fff;
   padding: 60px 20px;
+  margin: 0 auto;
 }
 
 .reasons-heading {
@@ -362,11 +363,10 @@ body {
 }
 
 .reasons-cards-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  display: flex;
+  flex-wrap: wrap;
   gap: 20px;
-  max-width: 1200px;
-  margin: 0 auto;
+  justify-content: center;
 }
 
 .reason-card {
@@ -377,7 +377,8 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  min-height: 280px;
+  max-width: 230px;
+  min-height: 200px;
   border: 1px solid #333;
   box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.05);
 }
