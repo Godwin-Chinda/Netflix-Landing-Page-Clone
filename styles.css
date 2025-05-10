@@ -350,6 +350,60 @@ body {
   font-weight: bold;
 }
 
+.reasons-section {
+  color: #fff;
+  padding: 60px 20px;
+}
+
+.reasons-heading {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 40px 0 40px 100px;
+}
+
+.reasons-cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.reason-card {
+  background-color: #181818;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 280px;
+  border: 1px solid #333;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.05);
+}
+
+.reason-card h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.reason-card p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #ccc;
+  margin-bottom: auto;
+}
+
+.reason-card img {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+  align-self: flex-end;
+  margin-top: 20px;
+}
+
 @media (max-width: 500px) {
   .movie-card {
     width: 120px;
