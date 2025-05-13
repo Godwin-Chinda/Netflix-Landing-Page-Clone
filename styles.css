@@ -405,6 +405,19 @@ body {
   margin-top: 20px;
 }
 
+.faq-section {
+  color: #fff;
+  padding: 60px 20px;
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+.faq-heading {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 40px 0 40px 100px;
+}
+
 @media (max-width: 500px) {
   .movie-card {
     width: 120px;
