@@ -5,9 +5,11 @@
 }
 
 body {
-  background: linear-gradient(to top, #3d1f23, #0b0606);
+  background: linear-gradient(to top, #3d1f23, #000000);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  height: 100vh;
+  height: 100%;
   padding: 0 20px;
 }
 
