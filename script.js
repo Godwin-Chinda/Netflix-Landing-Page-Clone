@@ -1,3 +1,11 @@
+//for the faq section
+function toggleFAQ(el) {
+  const answer = el.nextElementSibling;
+  const icon = el.querySelector(".icon");
+
+  answer.classList.toggle("open");
+  icon.textContent = answer.classList.contains("open") ? "✕" : "+";
+}
 
 //for the toggledropdown
 function toggleDropdown() {
