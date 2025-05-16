@@ -33,7 +33,7 @@ This is a responsive Netflix landing page clone built using **HTML**, **CSS** an
 
 1. Clone this repo or download the ZIP:
     ```bash
-    git clone https://github.com/your-username/netflix-landing-clone.git
+    git clone https://github.com/Godwin-Chinda/Netflix-Landing-Page-Clone
     cd netflix-landing-clone
     ```
 
@@ -44,7 +44,7 @@ This is a responsive Netflix landing page clone built using **HTML**, **CSS** an
 
 ## Customization
 
-- Replace the hero image in `assets/images/hero-bg.jpg`.
+- Replace the hero image in `Images/Netflix.jpg`.
 - Adjust the gradient colors in `style.css` for your brand theme.
 - Extend `script.js` to add features like:
   - Form validation
