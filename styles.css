@@ -535,10 +535,10 @@ body {
   position: absolute;
   top: 110%;
   left: 0;
-  background-color: #1e1e1e;
+  background-color: #5784ed;
   border: 1px solid #444;
   border-radius: 6px;
-  padding: 8px 0;
+  align-items: center;
   display: none;
   flex-direction: column;
   min-width: 100%;
@@ -550,10 +550,6 @@ body {
   text-decoration: none;
   padding: 6px 14px;
   font-size: 14px;
-}
-
-.dropdown a:hover {
-  background-color: #333;
 }
 
 .footer-location {
