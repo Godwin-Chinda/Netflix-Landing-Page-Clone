@@ -1,3 +1,8 @@
+// === Slider Controls ===
+const slider = document.getElementById("slider");
+const leftArrow = document.querySelector(".arrow-left");
+const rightArrow = document.querySelector(".arrow-right");
+
 //for the faq section
 function toggleFAQ(el) {
   const answer = el.nextElementSibling;
