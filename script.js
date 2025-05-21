@@ -1,7 +1,7 @@
 // === Email Form Handling ===
 const emailForms = document.querySelectorAll(".email-form");
 
-emailForms.forEach(form => {
+emailForms.forEach((form) => {
   form.addEventListener("submit", function (e) {
     e.preventDefault();
     const emailInput = this.querySelector("input[type='email']");
@@ -44,13 +44,28 @@ rightArrow.addEventListener("click", () => {
   });
 });
 
-//for the faq section
+//FAQ Question section
 function toggleFAQ(el) {
   const answer = el.nextElementSibling;
   const icon = el.querySelector(".icon");
+  const isAlreadyOpen = answer.classList.contains("open");
 
-  answer.classList.toggle("open");
-  icon.textContent = answer.classList.contains("open") ? "✕" : "+";
+  // If it's already open, just close it
+  if (isAlreadyOpen) {
+    answer.classList.remove("open");
+    icon.textContent = "+";
+  } else {
+    // Close all other answers and reset their icons
+    const allAnswers = document.querySelectorAll(".faq-answer");
+    const allIcons = document.querySelectorAll(".faq-question .icon");
+
+    allAnswers.forEach((ans) => ans.classList.remove("open"));
+    allIcons.forEach((icn) => (icn.textContent = "+"));
+
+    // Then open the clicked one
+    answer.classList.add("open");
+    icon.textContent = "✕";
+  }
 }
 
 //for the toggledropdown
